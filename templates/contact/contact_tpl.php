@@ -15,30 +15,30 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="all_thongtin_contact">
-                            <div class="title_thongtin_contact">Get In Touch !!</div>
+                            <div class="title_thongtin_contact"><?= $lienhe['ten'.$lang] ?></div>
                             <div class="noidung_thongtin_contact">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            <?= htmlspecialchars_decode($lienhe['motangan'.$lang]) ?>
                             </div>
                             <div class="all_thongtinlienhe">
                                 <div class="hotline_ttlh">
                                     <img src="./assets/images/phone_ct.png" alt="">
                                     <div class="contct_ttlh">
                                         <span><?= $optsetting['hotline'] ?></span>
-                                        <span>Lorem ipsum dolor sit.</span>
+                                        <!-- <span>Lorem ipsum dolor sit.</span> -->
                                     </div>
                                 </div>
                                 <div class="hotline_ttlh">
                                     <img src="./assets/images/email_ct.png" alt="">
                                     <div class="contct_ttlh">
                                         <span><?= $optsetting['email'] ?></span>
-                                        <span>Lorem ipsum dolor sit.</span>
+                                        <!-- <span>Lorem ipsum dolor sit.</span> -->
                                     </div>
                                 </div>
                                 <div class="hotline_ttlh">
                                     <img src="./assets/images/map_ct.png" alt="">
                                     <div class="contct_ttlh">
                                         <span><?= $optsetting['diachi'] ?></span>
-                                        <span>Lorem ipsum dolor sit.</span>
+                                        <!-- <span>Lorem ipsum dolor sit.</span> -->
                                     </div>
                                 </div>
                             </div>

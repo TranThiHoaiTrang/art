@@ -79,7 +79,7 @@ $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jp
 
 /* Slideshow */
 $nametype = "giai-thuong";
-$config['photo']['man_photo'][$nametype]['title_main_photo'] = "Giải thưởng";
+$config['photo']['man_photo'][$nametype]['title_main_photo'] = "Hợp tác giáo dục";
 $config['photo']['man_photo'][$nametype]['number_photo'] = 1;
 $config['photo']['man_photo'][$nametype]['images_photo'] = true;
 $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;

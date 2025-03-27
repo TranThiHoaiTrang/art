@@ -94,7 +94,7 @@ $cauhoi = $d->rawQuery("select * from #_cauhoi where type = 'san-pham' and idmuc
                                 <?= $pro_list['ten' . $lang] ?>
                             </div>
                             <div class="dm_kh">
-                            <?= $row_detail['videobaigiang'] ?>
+                                <?= $row_detail['videobaigiang'] ?>
                             </div>
                         </div>
                         <div class="noidung_chitiet_khoahoc">

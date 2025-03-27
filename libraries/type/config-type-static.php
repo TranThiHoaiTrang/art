@@ -92,9 +92,11 @@ $config['static'][$nametype]['noidung_cke'] = true;
 /* Liên hệ */
 $nametype = "lienhe";
 $config['static'][$nametype]['title_main'] = "Liên hệ";
-$config['static'][$nametype]['tieude'] = false;
+$config['static'][$nametype]['tieude'] = true;
 $config['static'][$nametype]['noidung'] = true;
 $config['static'][$nametype]['noidung_cke'] = true;
+$config['static'][$nametype]['motangan'] = true;
+$config['static'][$nametype]['motangan_cke'] = true;
 $config['static'][$nametype]['mota'] = true;
 $config['static'][$nametype]['mota_cke'] = true;
 $config['static'][$nametype]['images'] = true;
